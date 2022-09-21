@@ -1,0 +1,9 @@
+h1{color: white;
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    margin: 40px;}
+
+.generos {display: flex; justify-content: space-between;
+    padding: 40px
+    
+    ;}

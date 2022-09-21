@@ -1,0 +1,47 @@
+.title {color:white;
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    margin: 50px 0px 50px 0px;
+    text-align:center ;
+    
+     
+}
+.resumen {color: white;
+    font-family:'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    
+}
+.thor-video{ height:630px; width: 1430px;
+    padding: 40px;
+
+
+
+}
+.text-detalles{ color: white;
+    font-family:'Open Sans', sans-serif ;
+    font-size: 17px;
+   
+}
+.estrella{ height: 14px;}
+
+.texto-genero {text-decoration: none;color: white;
+    font-family:'Open Sans', sans-serif ;
+    font-size: 17px;
+    
+}
+.detalles{display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-between;
+align-items: center;
+height: 120px;
+padding: 10px;
+
+}
+
+.boton{height: 20px; width: 15;
+    background-color: black;
+    
+    
+    }
