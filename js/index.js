@@ -13,8 +13,8 @@ fetch(peliculasPopulares)
         for (let i=0; i<5; i++) {
             console.log(infoPeliculas[i]);
             todasLasPeliculas += `<article class="item">
-            <img src = "https://image.tmdb.org/t/p/w500${infoPeliculas[i].poster_path}"  class="imgpop" alt="${infoPeliculas[i].title}">
-            
+            <a href="./peliculas.html"> <img src = "https://image.tmdb.org/t/p/w500${infoPeliculas[i].poster_path}"  class="imgpop" alt="${infoPeliculas[i].title}"> </a>
+            <a href="./peliculas.html">  <h3  class="nombres">  ${infoPeliculas[i].original_title}   </h3> </a>
             </article>`
             
         }
