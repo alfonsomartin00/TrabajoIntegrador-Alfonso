@@ -13,8 +13,8 @@ fetch(peliculasPopulares)
         for (let i=0; i<5; i++) {
             console.log(infoPeliculas[i]);
             todasLasPeliculas += `<article class="item">
-            <a href="./peliculas.html"> <img src = "https://image.tmdb.org/t/p/w500${infoPeliculas[i].poster_path}"  class="imgpop" alt="${infoPeliculas[i].title}"> </a>
-            <a href="./peliculas.html">  <h3  class="nombres">  ${infoPeliculas[i].original_title}   </h3> </a>
+            <a href="./peliculas.html?id=${infoPeliculas[i].id}"> <img src = "https://image.tmdb.org/t/p/w500${infoPeliculas[i].poster_path}"  class="imgpop" alt="${infoPeliculas[i].title}">
+          <h3  class="nombres">  ${infoPeliculas[i].original_title}   </h3> </a>
             </article>`
             
         }
@@ -36,8 +36,8 @@ fetch(peliculasPopulares)
             for (let i=0; i<5; i++) {
                 console.log(infoSeries[i]);
                 todasLasSeries += `<article class="item">
-                <img src = "https://image.tmdb.org/t/p/w500${infoSeries[i].poster_path}"  class="imgpop" alt="${infoSeries[i].title}">
-                
+                <a href="./series.html"> <img src = "https://image.tmdb.org/t/p/w500${infoSeries[i].poster_path}"  class="imgpop" alt="${infoSeries[i].title}"> </a>
+                <a href="./series.html"> <h3 class="nombres"> ${infoSeries[i].original_name}  </h3> </a>
                 </article>`
                 
             }
